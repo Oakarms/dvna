@@ -1,0 +1,3 @@
+[submodule "scissors"]
+	path = scissors
+	url = https://github.com/Oakarms/dvna
