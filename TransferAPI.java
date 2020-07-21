@@ -41,14 +41,6 @@ public class TransferAPI extends AltoroAPI {
 			e.printStackTrace();
 			return Response.status(500).entity("{\"Error\": \"Request is not in JSON format\"}").build();
 		}
-
-		
-		
-		
-		if(message.startsWith("ERROR")){
-			return Response.status(500).entity("\"error\":\"" + message+"\"}").build();
-		}
-		
 		return Response.status(200).entity("{\"success\":\""+message+"\"}").build();
 	}
 }
