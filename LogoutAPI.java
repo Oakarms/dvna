@@ -1,9 +1,5 @@
 package com.ibm.security.appscan.altoromutual.api;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-
 @Path("/logout")
 public class LogoutAPI extends AltoroAPI{
 	@GET
