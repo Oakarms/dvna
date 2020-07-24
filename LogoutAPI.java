@@ -9,7 +9,7 @@ public class LogoutAPI extends AltoroAPI{
 			String response="{\"LoggedOut\" : \"True\"}";
 			return Response.status(200).entity(response).build();}
 		catch(Exception e){
-			String response = "{\"Error \": \"Unknown error encountered\"}";
+			String response = "{\"Error \": \"Shitbrokeyo\"}";
 			return Response.status(404).entity(response).build();
 		}
 	}
